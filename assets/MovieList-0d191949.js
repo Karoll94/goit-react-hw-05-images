@@ -1,0 +1,1 @@
+import{P as i,a as n,j as s,L as p}from"./index-efa7a843.js";const c=({movies:r})=>{const e=n();return s.jsx(s.Fragment,{children:r.map(({title:t,name:a,id:o})=>s.jsx("ul",{children:s.jsx("li",{children:s.jsx(p,{to:`/movies/${o}`,state:{from:e},children:t||a})})},o))})};c.propTypes={movies:i.array};export{c as M};
