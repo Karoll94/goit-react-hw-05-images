@@ -4,7 +4,6 @@ import { navLinks } from "../utils/routes";
 import { Navbar } from "../navbar/Navbar";
 import { lazy } from "react";
 
-
 const MovieDetails = lazy(() => import("../MovieDetails/MovieDetails"));
 const Reviews = lazy(() => import("../Reviews/Reviews"));
 const Movies = lazy(() => import("../../pages/Movies"));
