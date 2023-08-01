@@ -1,5 +1,6 @@
 import "./Loader.scss";
 
+
 export const Loader = () => {
   return (
     <>
